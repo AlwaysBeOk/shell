@@ -52,7 +52,7 @@
 
 - curl 网络请求，如curl http://www.baidu.com
 
--ps axu | grep tomcat | awk '{print $2}' | xargs kill -9
+-ps axu | grep tomcat | awk '{print $2}' | xargs kill -9   解决nginx 502错误
 
 ## vi编辑器
 ### 什么是vi编辑器
