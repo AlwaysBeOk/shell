@@ -52,6 +52,8 @@
 
 - curl 网络请求，如curl http://www.baidu.com
 
+-ps axu | grep tomcat | awk '{print $2}' | xargs kill -9
+
 ## vi编辑器
 ### 什么是vi编辑器
 - 如同Windows下的记事本，vi编辑器是Linux下的标配，通过它我们可以创建、编辑文件。
